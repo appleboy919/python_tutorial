@@ -1,10 +1,10 @@
 def main():
     # open a file for writing and create it if it doesn't exist
-    # f = open("textfile.txt", "w+")
+    # f = open("python_tutorial/textfile.txt", "w+")
 
     # open the file for appending text to the end
-    # f = open("textfile.txt", "a")
-    f = open("textfile.txt", "r")
+    # f = open("python_tutorial/textfile.txt", "a")
+    f = open("python_tutorial/textfile.txt", "r")
 
     # write some lnes of data to the file
     # for i in range(10):

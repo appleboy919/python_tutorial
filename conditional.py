@@ -18,6 +18,21 @@ def main():
 
     print(st)
 
+    # A is B
+    a = 1
+    b = 1
+    if a is b:
+        print('a is b')
+    else:
+        print('a is not b')
+    
+    # a is in A
+    A = [1,2,3,4]
+    if 1 in A:
+        print('1 is in A')
+    else:
+        print('1i is not in A')
+
 
 if __name__ == "__main__":
     main()

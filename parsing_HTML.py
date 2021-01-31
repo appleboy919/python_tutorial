@@ -1,3 +1,5 @@
+# Add a simplehtml.html file before run
+
 from html.parser import HTMLParser
 
 metacount = 0

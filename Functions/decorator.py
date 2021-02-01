@@ -6,7 +6,7 @@ def f1(f):
     return f2
 
 
-@f1
+@f1         # f1 takes f3 as an argument, returns and assigned that name of f3
 def f3():
     print('this is f3')
 

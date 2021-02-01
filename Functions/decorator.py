@@ -20,7 +20,10 @@ def f3():
 
 # x = f1(f3)
 # x()
-f3 = f1(f3)  # f3 is now a decorator (f1 as a wrapper function)
+
+# f3 = f1(f3)  # f3 is now a decorator (f1 as a wrapper function)
+# f3()
+
 f3()
 
 # Note

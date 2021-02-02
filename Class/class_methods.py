@@ -1,4 +1,7 @@
 class Animal:
+    # class variables
+    x = [1, 2, 3]
+
     def __init__(self, **kwargs):
         self._type = kwargs['type'] if 'type' in kwargs else 'Living thing'
         self._name = kwargs['name'] if 'name' in kwargs else 'No Name'
@@ -54,3 +57,6 @@ if __name__ == '__main__':
 ### Note ###
 # __init__: constructor which initialize an object
 # object variables such as _type, _name, have _, which blocks the users to access these variables directly
+# _type, _name, ... are "Object Variables" --> bounded to the object, not class
+# class variables are drawn by class, not object ==> "Encapsulation"
+# "encapsulated": variables belong to an object, NOT CLASS
